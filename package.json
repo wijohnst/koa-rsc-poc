@@ -7,7 +7,10 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "@types/koa": "^2.15.0",
     "@types/node": "^20.12.12",
+    "koa": "^2.15.3",
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
 }
