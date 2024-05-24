@@ -6,12 +6,16 @@
   "author": "@wijohnst",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc"
+  },
   "devDependencies": {
+    "@koa/router": "^12.0.1",
     "@types/koa": "^2.15.0",
-    "@types/koa-router": "^7.4.8",
+    "@types/koa__router": "^12.0.4",
     "@types/node": "^20.12.12",
     "koa": "^2.15.3",
-    "koa-router": "^12.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
